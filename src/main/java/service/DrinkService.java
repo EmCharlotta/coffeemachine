@@ -1,7 +1,9 @@
 package service;
 
-import dao.DrinkDao;
+import dao.DrinkDaoImpl;
 
-public class DrinkService {
-    DrinkDao drinkDao = new DrinkDao();
+public class DrinkService implements Service {
+    DrinkDaoImpl drinkDao = new DrinkDaoImpl();
+
+
 }
